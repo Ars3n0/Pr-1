@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пр 1</title>
+    <style>
+        body {
+            font-size: 18px; 
+        }
+    </style>
+</head>
+<body>
+    <script>
+      
+document.write("Завдання №1: ");
+const array1 = ['a', 'b', 'c'];
+const array2 = [1, 2, 3];
+const mergedArray = array1.concat(array2);
+document.write(mergedArray + "<br>");
+
+
+document.write("Завдання №2: ");
+const originalArray = ['a', 'b', 'c'];
+originalArray.push(1, 2, 3);
+document.write(originalArray + "<br>");
+
+
+document.write("Завдання №3: ");
+const arrayToReverse = [1, 2, 3];
+const reversedArray = arrayToReverse.reverse();
+document.write(reversedArray + "<br>");
+
+
+document.write("Завдання №4: ");
+const array4 = ['js', 'css', 'jq'];
+document.write(array4[array4.length - 1] + "<br>");
+
+
+document.write("Завдання №5: ");
+const array5 = [1, 2, 3, 4, 5];
+const newArray5 = array5.slice(3);
+document.write(newArray5 + "<br>");
+
+
+document.write("Завдання №6: ");
+const array6 = [1, 2, 3, 4, 5];
+array6.splice(1, 2);
+document.write(array6 + "<br>");
+
+
+document.write("Завдання №7: ");
+const array7 = [1, 2, 3, 4, 5];
+const newArray7 = array7.splice(1, 3);
+document.write(newArray7 + "<br>");
+
+
+document.write("Завдання №8: ");
+const array8 = [1, 2, 3, 4, 5];
+array8.splice(3, 0, 'a', 'b', 'c');
+document.write(array8 + "<br>");
+
+
+document.write("Завдання №9: ");
+const array9 = [1, 2, 3, 4, 5];
+array9.splice(1, 0, 'a', 'b');
+array9.splice(6, 0, 'c');
+array9.splice(8, 0, 'e');
+document.write(array9 + "<br>");
+
+
+document.write("Завдання №10: ");
+const array10 = [3, 4, 1, 2, 7];
+array10.sort();
+document.write(array10 + "<br>");
+
+
+document.write("Завдання №11: ");
+const obj = {js: 'test', jq: 'hello', css: 'world'};
+const keysArray = Object.keys(obj);
+console.log(keysArray);
+
+
+    </script>
+</body>
+</html>
+
+
